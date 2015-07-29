@@ -13,6 +13,7 @@
 		0E22F7C71B6781D2007279ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E22F7C61B6781D2007279ED /* Images.xcassets */; };
 		0E22F7CA1B6781D2007279ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E22F7C81B6781D2007279ED /* LaunchScreen.xib */; };
 		0E22F7D61B6781D2007279ED /* firstGitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22F7D51B6781D2007279ED /* firstGitTests.swift */; };
+		0E6C71631B68CD0B007F2D31 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6C71621B68CD0B007F2D31 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		0E22F7CF1B6781D2007279ED /* firstGitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstGitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E22F7D41B6781D2007279ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E22F7D51B6781D2007279ED /* firstGitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstGitTests.swift; sourceTree = "<group>"; };
+		0E6C71621B68CD0B007F2D31 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				0E22F7BF1B6781D2007279ED /* AppDelegate.swift */,
 				0E22F7C11B6781D2007279ED /* ViewController.swift */,
 				0E22F7C31B6781D2007279ED /* Main.storyboard */,
+				0E6C71621B68CD0B007F2D31 /* SecondViewController.swift */,
 				0E22F7C61B6781D2007279ED /* Images.xcassets */,
 				0E22F7C81B6781D2007279ED /* LaunchScreen.xib */,
 				0E22F7BD1B6781D2007279ED /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E6C71631B68CD0B007F2D31 /* SecondViewController.swift in Sources */,
 				0E22F7C21B6781D2007279ED /* ViewController.swift in Sources */,
 				0E22F7C01B6781D2007279ED /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				0E22F7DB1B6781D2007279ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E22F7DC1B6781D2007279ED /* Build configuration list for PBXNativeTarget "firstGitTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				0E22F7DE1B6781D2007279ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
